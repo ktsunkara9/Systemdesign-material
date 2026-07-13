@@ -544,5 +544,5 @@ Failover	Restores service automatically when a component fails.
 Monitoring & Observability	Helps detect and diagnose failures before they become larger incidents.
 Disaster Recovery	Enables restoration after catastrophic failures, supporting long-term reliability.
 
-Summary (60-second answer)
+Interview Summary (60-second answer)
 Reliability is the ability of a system to consistently produce correct results, even when components fail. In distributed systems, failures are inevitable, so we improve reliability through techniques like redundancy, replication, failover, retries with exponential backoff, idempotency, circuit breakers, health checks, durable messaging, monitoring, backups, and graceful degradation. These techniques increase correctness and fault tolerance, but they also add cost, operational complexity, and sometimes latency. Reliability is critical for systems such as banking, payments, airline bookings, and healthcare, where incorrect or lost operations have significant business impact.
